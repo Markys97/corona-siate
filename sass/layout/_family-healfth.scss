@@ -1,0 +1,260 @@
+.family-healfth {
+    max-width: 1366px;
+    min-height: 100vh;
+    background: #FAFBFD;
+    position: relative;
+    padding-bottom: 30px;
+  
+  
+    
+    &__block-flotant{
+        position: absolute;
+        top:0;
+        right:0;
+        background: red;
+        border-radius: 30px 0px 0px 30px;
+        width: 295.29px;
+        height: 100%;
+        @media screen and (max-width:768px) {
+            width: 200px;
+         }
+         @media screen and (max-width:432px) {
+           width: 100px;
+
+         }
+    }
+    &-container{
+      //  border:1px solid red;
+      
+    }
+
+    &__button {
+    }
+
+    /* .family-healfth__img-block */
+
+    &__img-block {
+        z-index: 100;
+        @media screen and (max-width:768px) {
+            width: 200px;
+            margin-top: 40px;
+         }
+    }
+
+    flex: 0 1 547px;
+  //  border:1px solid red;
+
+    &__img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* .family-healfth__video */
+
+    &__video {
+        max-width: 250px;
+      margin-bottom: 40px;
+      //  border:1px solid red;
+        display: flex;
+    }
+
+    /* .family-healfth__video-block */
+
+    &__video-block-icon {
+        margin-right: 12px;
+    }
+
+    /* .family-healfth__video-img */
+
+  
+
+    /* .family-healfth__video-info */
+
+    &__video-info {
+    }
+
+    /* .family-healfth__video-title */
+
+    &__video-title {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 126%;
+        /* or 16px */
+        
+        letter-spacing: 0.08em;
+        
+        
+        color: #B0B0B0;
+        margin-bottom: 5px;
+    }
+
+    /* .family-healfth__video-link */
+
+    &__video-link {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        line-height: 126%;
+        /* or 11px */
+        
+        letter-spacing: 0.165em;
+        text-transform: uppercase;
+        
+        
+        color: #000000;
+    }
+}
+.header {
+    position: relative;
+    width: 100%;
+    z-index: 200;
+   
+    &-content {
+        display: flex;
+        padding-top:51px;
+    }
+
+    &__logo-block {
+        flex:2  1 auto;
+       
+       // border:1px solid red;
+        @media screen and (max-width:768px) {
+           display: none;
+        }
+    }
+
+    /* .header__logo-img */
+
+    &__logo-img {
+        
+    }
+
+    /* .header__navbar */
+
+    &__navbar {
+        flex: 1 1 auto;
+       
+    }
+
+    /* .header__button-block */
+
+    &__button-block {
+       
+    }
+
+    /* .header__button */
+
+    &__button {
+    }
+}
+
+.menu {
+
+    
+   
+
+    &__list {
+        display: flex;
+        width: 100%;
+        padding-top:5px;
+        flex-wrap: wrap;
+    }
+
+    /* .menu__item */
+
+    &__item:not(:first-child) {
+        margin-left:40px;
+        @media screen and (max-width:768px) {
+            margin-left:0px;
+        }
+    }
+    &__item {
+       
+        padding:10px 10px;
+        border-radius:13px;
+        &:hover{
+            background: #EC5863;
+            
+        }
+        &:hover a{
+           color:white;
+            
+        }
+        
+    }
+    /* .menu__link */
+
+    &__link {
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 12px;
+        /* identical to box height */
+
+        letter-spacing: 0.14em;
+
+        color: #000000;
+    }
+}
+
+.family-healfth-content {
+    position: relative;
+    margin-top: 100px;
+   // border:1px solid red;
+    display: flex;
+    align-items: center;
+    z-index: 400;
+    @media screen and (max-width:768px) {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+.family-health {
+
+    /* .family-health__info */
+
+    &__info {
+        flex: 1 1 auto;
+       // border:1px solid red;
+    }
+
+    /* .family-health__title */
+
+    &__title {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 126%;
+        color: #000000;
+        margin-bottom: 12px;
+        @media screen and (max-width:524px) {
+            font-size: 30px;
+         }
+        
+    }
+
+    /* .family-health__text */
+
+    &__text {
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 138.5%;
+        letter-spacing: 0.08em;
+        color: #616161;
+        margin-bottom: 24px;
+        max-width: 375px;
+        @media screen and (max-width:524px) {
+            font-size: 18px;
+         }
+    }
+}
+.blue {
+    color: #4285F4;
+}
