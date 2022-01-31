@@ -1,0 +1,47 @@
+._container{
+    max-width: 1015px;
+    margin:auto;
+    padding:0 15px;
+   
+}
+
+.button {
+    display: flex;
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background: #4285F4;
+    border-radius: 5px;
+    color:white;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    
+    letter-spacing: 0.14em;
+    
+    color: #FCFDFE;
+    cursor: pointer;
+    &--orange{
+        background: #EC5863;
+    }
+    
+}
+.decoration{
+   
+    background: #EC5863;
+
+    position: absolute;
+}
+.red{
+    color:#EC5863;
+}
+
+.deco-expert{
+    background: #EC5863;
+    position: absolute;
+    
+}
